@@ -11,7 +11,7 @@
 
   <title>
     
-      Algorithms &middot; GreenData
+      Average of Levels in Binary Tree &middot; GreenData
     
   </title>
 
@@ -35,7 +35,7 @@
 </head>
 
 
-  <body class="category">
+  <body class="post">
 
     <div id="sidebar">
   <header>
@@ -108,7 +108,7 @@
 
   
     
-      <a class="category-link  active"
+      <a class="category-link "
           href="/GreenData/category/Algorithm.html">Algorithms</a>
     
   
@@ -220,33 +220,143 @@
 
     <main class="container">
       <header>
-  <h1 class="page-title">Algorithms</h1>
+  <h1 class="post-title">Average of Levels in Binary Tree</h1>
 </header>
 <div class="content">
-  
+  <div class="post-meta">
+  <span class="post-date">05 Oct 2017</span>
+  <span class="post-categories">
+    
+      &bull;
 
-<ul class="posts-list">
-  
-  
-    <li>
-      <h3>
-        <a href="/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists.html">
-          Minimum-Index-Sum-of-Two-Lists
-          <small>05 Oct 2017</small>
+      
+      
+      
+
+      
+        <a href="/GreenData/category/Algorithm.html">
+          Algorithms
         </a>
-      </h3>
-    </li>
+      
+    
+  </span>
+</div>
+
+  <div class="post-body">
+    <p>Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.</p>
+
+<p>Example 1:
+Input:
+    3
+   / \
+  9  20
+    /  \
+   15   7
+Output: [3, 14.5, 11]
+Explanation:
+The average value of nodes on level 0 is 3,  on level 1 is 14.5, and on level 2 is 11. Hence return [3, 14.5, 11].
+Note:
+The range of node’s value is in the range of 32-bit signed integer.</p>
+
+<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="c"># Definition for a binary tree node.</span>
+<span class="c"># class TreeNode(object):</span>
+<span class="c">#     def __init__(self, x):</span>
+<span class="c">#         self.val = x</span>
+<span class="c">#         self.left = None</span>
+<span class="c">#         self.right = None</span>
+
+<span class="k">class</span> <span class="nc">Solution</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">averageOfLevels</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">root</span><span class="p">):</span>
+        <span class="s">"""
+        :type root: TreeNode
+        :rtype: List[float]
+        """</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">que</span> <span class="o">=</span> <span class="p">[</span><span class="n">root</span><span class="p">]</span>
+        <span class="k">while</span> <span class="n">que</span><span class="p">:</span>
+            <span class="n">result</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mf">1.0</span><span class="o">*</span><span class="nb">sum</span><span class="p">([</span><span class="n">i</span><span class="o">.</span><span class="n">val</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">que</span><span class="p">])</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">que</span><span class="p">))</span>
+            <span class="n">nque</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">q</span> <span class="ow">in</span> <span class="n">que</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">q</span><span class="o">.</span><span class="n">left</span><span class="p">:</span> <span class="n">nque</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">q</span><span class="o">.</span><span class="n">left</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">q</span><span class="o">.</span><span class="n">right</span><span class="p">:</span> <span class="n">nque</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">q</span><span class="o">.</span><span class="n">right</span><span class="p">)</span>
+            <span class="n">que</span> <span class="o">=</span> <span class="n">nque</span>
+        <span class="k">return</span> <span class="n">result</span>
+                
+</code></pre>
+</div>
+
+
+    
+
+
+
+<div class="post-tags">
   
-    <li>
-      <h3>
-        <a href="/GreenData/algorithms/2017/10/05/Average-of-Levels-in-Binary-Tree.html">
-          Average of Levels in Binary Tree
-          <small>05 Oct 2017</small>
-        </a>
-      </h3>
-    </li>
+</div>
+  </div>
+
   
-</ul>
+  <section class="comments">
+    <h2>Comments</h2>
+    <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://greendata-1.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+    
+  <p>
+    You are seeing this because your Disqus shortname is not properly set. To
+    configure Disqus, you should edit your <code>_config.yml</code> to include
+    either a <code>disqus.shortname</code> variable.
+  </p>
+
+  <p>
+    If you do not wish to use Disqus, override the
+    <code>comments.html</code> partial for this theme.
+  </p> -->
+
+</section>
+
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists.html">
+            Minimum-Index-Sum-of-Two-Lists
+            <small>05 Oct 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/GreenData/deep%20learning/2017/10/01/Sigmoid-Function.html">
+            Sigmoid
+            <small>01 Oct 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
 
 </div>
 
