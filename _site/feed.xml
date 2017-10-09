@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/GreenData/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/GreenData/" rel="alternate" type="text/html" /><updated>2017-10-05T23:53:40+08:00</updated><id>http://localhost:4000/GreenData/</id><title type="html">GreenData</title><author><name>Sara Z.</name></author><entry><title type="html">Minimum-Index-Sum-of-Two-Lists</title><link href="http://localhost:4000/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists.html" rel="alternate" type="text/html" title="Minimum-Index-Sum-of-Two-Lists" /><published>2017-10-05T00:00:00+08:00</published><updated>2017-10-05T00:00:00+08:00</updated><id>http://localhost:4000/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists</id><content type="html" xml:base="http://localhost:4000/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists.html">&lt;p&gt;Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/GreenData/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/GreenData/" rel="alternate" type="text/html" /><updated>2017-10-09T22:00:12+08:00</updated><id>http://localhost:4000/GreenData/</id><title type="html">GreenData</title><author><name>Sara Z.</name></author><entry><title type="html">Rising Temperature</title><link href="http://localhost:4000/GreenData/algorithms/2017/10/09/Rising-Temperature.html" rel="alternate" type="text/html" title="Rising Temperature" /><published>2017-10-09T00:00:00+08:00</published><updated>2017-10-09T00:00:00+08:00</updated><id>http://localhost:4000/GreenData/algorithms/2017/10/09/Rising-Temperature</id><content type="html" xml:base="http://localhost:4000/GreenData/algorithms/2017/10/09/Rising-Temperature.html">&lt;p&gt;Given a Weather table, write a SQL query to find all dates’ Ids with higher temperature compared to its previous (yesterday’s) dates.&lt;/p&gt;
+
+&lt;p&gt;+———+————+——————+
+| Id(INT) | Date(DATE) | Temperature(INT) |
++———+————+——————+
+|       1 | 2015-01-01 |               10 |
+|       2 | 2015-01-02 |               25 |
+|       3 | 2015-01-03 |               20 |
+|       4 | 2015-01-04 |               30 |
++———+————+——————+
+For example, return the following Ids for the above Weather table:
++—-+
+| Id |
++—-+
+|  2 |
+|  4 |
++—-+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-SQL&quot;&gt;select w.id as Id
+from weather w
+join
+weather w2 on datediff(w.date, w2.date)=1
+and w.temperature &amp;gt; w2.temperature
+        
+                
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Sara Z.</name></author><summary type="html">Given a Weather table, write a SQL query to find all dates’ Ids with higher temperature compared to its previous (yesterday’s) dates.</summary></entry><entry><title type="html">Human Traffic of Stadium</title><link href="http://localhost:4000/GreenData/algorithms/2017/10/09/Human-Traffic-of-Stadium.html" rel="alternate" type="text/html" title="Human Traffic of Stadium" /><published>2017-10-09T00:00:00+08:00</published><updated>2017-10-09T00:00:00+08:00</updated><id>http://localhost:4000/GreenData/algorithms/2017/10/09/Human-Traffic-of-Stadium</id><content type="html" xml:base="http://localhost:4000/GreenData/algorithms/2017/10/09/Human-Traffic-of-Stadium.html">&lt;p&gt;X city built a new stadium, each day many people visit it and the stats are saved as these columns: id, date, people&lt;/p&gt;
+
+&lt;p&gt;Please write a query to display the records which have 3 or more consecutive rows and the amount of people more than 100(inclusive).&lt;/p&gt;
+
+&lt;p&gt;For example, the table stadium:
++——+————+———–+
+| id   | date       | people    |
++——+————+———–+
+| 1    | 2017-01-01 | 10        |
+| 2    | 2017-01-02 | 109       |
+| 3    | 2017-01-03 | 150       |
+| 4    | 2017-01-04 | 99        |
+| 5    | 2017-01-05 | 145       |
+| 6    | 2017-01-06 | 1455      |
+| 7    | 2017-01-07 | 199       |
+| 8    | 2017-01-08 | 188       |
++——+————+———–+
+For the sample data above, the output is:&lt;/p&gt;
+
+&lt;p&gt;+——+————+———–+
+| id   | date       | people    |
++——+————+———–+
+| 5    | 2017-01-05 | 145       |
+| 6    | 2017-01-06 | 1455      |
+| 7    | 2017-01-07 | 199       |
+| 8    | 2017-01-08 | 188       |
++——+————+———–+&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-SQL&quot;&gt;select distinct s1.* 
+from stadium s1, stadium s2, stadium s3
+where s1.people&amp;gt;=100 and s2.people&amp;gt;=100 and s3.people&amp;gt;=100
+and ((s1.id-s2.id=1 and s2.id-s3.id=1 and s1.id-s3.id=2) # 1,2,3
+    or (s2.id - s1.id=1 and s3.id-s2.id=1 and s3.id-s1.id=2) # 3,2,1
+    or (s2.id - s1.id=1 and s1.id-s3.id=1 and s2.id-s3.id=2)) # 2,1,3
+order by s1.id
+       
+                
+&lt;/code&gt;&lt;/pre&gt;</content><author><name>Sara Z.</name></author><summary type="html">X city built a new stadium, each day many people visit it and the stats are saved as these columns: id, date, people</summary></entry><entry><title type="html">Minimum-Index-Sum-of-Two-Lists</title><link href="http://localhost:4000/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists.html" rel="alternate" type="text/html" title="Minimum-Index-Sum-of-Two-Lists" /><published>2017-10-05T00:00:00+08:00</published><updated>2017-10-05T00:00:00+08:00</updated><id>http://localhost:4000/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists</id><content type="html" xml:base="http://localhost:4000/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists.html">&lt;p&gt;Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings.&lt;/p&gt;
 
 &lt;p&gt;You need to help them find out their common interest with the least list index sum. If there is a choice tie between answers, output all of them with no order requirement. You could assume there always exists an answer.&lt;/p&gt;
 
