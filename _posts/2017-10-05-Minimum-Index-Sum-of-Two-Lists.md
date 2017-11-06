@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Minimum-Index-Sum-of-Two-Lists"
 categories:
   - Algorithms

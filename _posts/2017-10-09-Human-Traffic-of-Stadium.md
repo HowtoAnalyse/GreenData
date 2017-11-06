@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Human Traffic of Stadium"
 categories:
   - Algorithms

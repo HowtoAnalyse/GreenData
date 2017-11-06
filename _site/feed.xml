@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/GreenData/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/GreenData/" rel="alternate" type="text/html" /><updated>2017-10-09T22:00:12+08:00</updated><id>http://localhost:4000/GreenData/</id><title type="html">GreenData</title><author><name>Sara Z.</name></author><entry><title type="html">Rising Temperature</title><link href="http://localhost:4000/GreenData/algorithms/2017/10/09/Rising-Temperature.html" rel="alternate" type="text/html" title="Rising Temperature" /><published>2017-10-09T00:00:00+08:00</published><updated>2017-10-09T00:00:00+08:00</updated><id>http://localhost:4000/GreenData/algorithms/2017/10/09/Rising-Temperature</id><content type="html" xml:base="http://localhost:4000/GreenData/algorithms/2017/10/09/Rising-Temperature.html">&lt;p&gt;Given a Weather table, write a SQL query to find all dates’ Ids with higher temperature compared to its previous (yesterday’s) dates.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:4000/GreenData/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="http://localhost:4000/GreenData/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>GreenData</title>
+		<description>GreenData is a website for wonders worth sharing</description>
+		<link>http://localhost:4000/GreenData/</link>
+		<atom:link href="http://localhost:4000/GreenData/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Rising Temperature</title>
+				<link>http://localhost:4000/GreenData/algorithms/Rising-Temperature/</link>
+				<pubDate>Mon, 09 Oct 2017 00:00:00 +0800</pubDate>
+				<description>&lt;p&gt;Given a Weather table, write a SQL query to find all dates’ Ids with higher temperature compared to its previous (yesterday’s) dates.&lt;/p&gt;
 
 &lt;p&gt;+———+————+——————+
 | Id(INT) | Date(DATE) | Temperature(INT) |
@@ -23,7 +37,17 @@ weather w2 on datediff(w.date, w2.date)=1
 and w.temperature &amp;gt; w2.temperature
         
                 
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>Sara Z.</name></author><summary type="html">Given a Weather table, write a SQL query to find all dates’ Ids with higher temperature compared to its previous (yesterday’s) dates.</summary></entry><entry><title type="html">Human Traffic of Stadium</title><link href="http://localhost:4000/GreenData/algorithms/2017/10/09/Human-Traffic-of-Stadium.html" rel="alternate" type="text/html" title="Human Traffic of Stadium" /><published>2017-10-09T00:00:00+08:00</published><updated>2017-10-09T00:00:00+08:00</updated><id>http://localhost:4000/GreenData/algorithms/2017/10/09/Human-Traffic-of-Stadium</id><content type="html" xml:base="http://localhost:4000/GreenData/algorithms/2017/10/09/Human-Traffic-of-Stadium.html">&lt;p&gt;X city built a new stadium, each day many people visit it and the stats are saved as these columns: id, date, people&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/GreenData/algorithms/Rising-Temperature/</guid>
+			</item>
+		
+			<item>
+				<title>Human Traffic of Stadium</title>
+				<link>http://localhost:4000/GreenData/algorithms/Human-Traffic-of-Stadium/</link>
+				<pubDate>Mon, 09 Oct 2017 00:00:00 +0800</pubDate>
+				<description>&lt;p&gt;X city built a new stadium, each day many people visit it and the stats are saved as these columns: id, date, people&lt;/p&gt;
 
 &lt;p&gt;Please write a query to display the records which have 3 or more consecutive rows and the amount of people more than 100(inclusive).&lt;/p&gt;
 
@@ -60,7 +84,17 @@ and ((s1.id-s2.id=1 and s2.id-s3.id=1 and s1.id-s3.id=2) # 1,2,3
 order by s1.id
        
                 
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>Sara Z.</name></author><summary type="html">X city built a new stadium, each day many people visit it and the stats are saved as these columns: id, date, people</summary></entry><entry><title type="html">Minimum-Index-Sum-of-Two-Lists</title><link href="http://localhost:4000/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists.html" rel="alternate" type="text/html" title="Minimum-Index-Sum-of-Two-Lists" /><published>2017-10-05T00:00:00+08:00</published><updated>2017-10-05T00:00:00+08:00</updated><id>http://localhost:4000/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists</id><content type="html" xml:base="http://localhost:4000/GreenData/algorithms/2017/10/05/Minimum-Index-Sum-of-Two-Lists.html">&lt;p&gt;Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/GreenData/algorithms/Human-Traffic-of-Stadium/</guid>
+			</item>
+		
+			<item>
+				<title>Minimum-Index-Sum-of-Two-Lists</title>
+				<link>http://localhost:4000/GreenData/algorithms/Minimum-Index-Sum-of-Two-Lists/</link>
+				<pubDate>Thu, 05 Oct 2017 00:00:00 +0800</pubDate>
+				<description>&lt;p&gt;Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings.&lt;/p&gt;
 
 &lt;p&gt;You need to help them find out their common interest with the least list index sum. If there is a choice tie between answers, output all of them with no order requirement. You could assume there always exists an answer.&lt;/p&gt;
 
@@ -104,7 +138,17 @@ No duplicates in both lists.&lt;/p&gt;
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
                 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Sara Z.</name></author><summary type="html">Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings.</summary></entry><entry><title type="html">Average of Levels in Binary Tree</title><link href="http://localhost:4000/GreenData/algorithms/2017/10/05/Average-of-Levels-in-Binary-Tree.html" rel="alternate" type="text/html" title="Average of Levels in Binary Tree" /><published>2017-10-05T00:00:00+08:00</published><updated>2017-10-05T00:00:00+08:00</updated><id>http://localhost:4000/GreenData/algorithms/2017/10/05/Average-of-Levels-in-Binary-Tree</id><content type="html" xml:base="http://localhost:4000/GreenData/algorithms/2017/10/05/Average-of-Levels-in-Binary-Tree.html">&lt;p&gt;Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/GreenData/algorithms/Minimum-Index-Sum-of-Two-Lists/</guid>
+			</item>
+		
+			<item>
+				<title>Average of Levels in Binary Tree</title>
+				<link>http://localhost:4000/GreenData/algorithms/Average-of-Levels-in-Binary-Tree/</link>
+				<pubDate>Thu, 05 Oct 2017 00:00:00 +0800</pubDate>
+				<description>&lt;p&gt;Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.&lt;/p&gt;
 
 &lt;p&gt;Example 1:
 Input:
@@ -144,7 +188,17 @@ The range of node’s value is in the range of 32-bit signed integer.&lt;/p&gt;
         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
                 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Sara Z.</name></author><summary type="html">Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.</summary></entry><entry><title type="html">3Sum</title><link href="http://localhost:4000/GreenData/algorithms/2017/10/05/3Sum.html" rel="alternate" type="text/html" title="3Sum" /><published>2017-10-05T00:00:00+08:00</published><updated>2017-10-05T00:00:00+08:00</updated><id>http://localhost:4000/GreenData/algorithms/2017/10/05/3Sum</id><content type="html" xml:base="http://localhost:4000/GreenData/algorithms/2017/10/05/3Sum.html">&lt;p&gt;Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.&lt;/p&gt;
+&lt;/div&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/GreenData/algorithms/Average-of-Levels-in-Binary-Tree/</guid>
+			</item>
+		
+			<item>
+				<title>3Sum</title>
+				<link>http://localhost:4000/GreenData/algorithms/3Sum/</link>
+				<pubDate>Thu, 05 Oct 2017 00:00:00 +0800</pubDate>
+				<description>&lt;p&gt;Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.&lt;/p&gt;
 
 &lt;p&gt;Note: The solution set must not contain duplicate triplets.&lt;/p&gt;
 
@@ -173,7 +227,17 @@ The range of node’s value is in the range of 32-bit signed integer.&lt;/p&gt;
         
                 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Sara Z.</name></author><summary type="html">Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.</summary></entry><entry><title type="html">Sigmoid</title><link href="http://localhost:4000/GreenData/deep%20learning/2017/10/01/Sigmoid-Function.html" rel="alternate" type="text/html" title="Sigmoid" /><published>2017-10-01T00:00:00+08:00</published><updated>2017-03-10T03:25:52+08:00</updated><id>http://localhost:4000/GreenData/deep%20learning/2017/10/01/Sigmoid-Function</id><content type="html" xml:base="http://localhost:4000/GreenData/deep%20learning/2017/10/01/Sigmoid-Function.html">&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;np&lt;/span&gt;
+&lt;/div&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/GreenData/algorithms/3Sum/</guid>
+			</item>
+		
+			<item>
+				<title>Sigmoid</title>
+				<link>http://localhost:4000/GreenData/deep%20learning/Sigmoid-Function/</link>
+				<pubDate>Sun, 01 Oct 2017 00:00:00 +0800</pubDate>
+				<description>&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;np&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;plt&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -259,4 +323,10 @@ The range of node’s value is in the range of 32-bit signed integer.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Sara Z.</name></author><category term="logistic function" /><category term="gradient" /><summary type="html">import numpy as np import matplotlib.pyplot as plt</summary></entry></feed>
+&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/GreenData/deep%20learning/Sigmoid-Function/</guid>
+			</item>
+		
+	</channel>
+</rss>

@@ -1,19 +1,23 @@
-<!DOCTYPE html>
-<html lang="en-us">
+---
+layout: compress
+---
+<!doctype html>
+<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<head>
+	{% include _head.html %}
+</head>
+<body id="top-of-page" class="{{ layout.format }}">
+	{% unless page.skip_boilerplate %}
+	{% include _navigation.html %}
+	{% endunless %}
 
-  {% include head.html %}
+	{% include _masthead.html %}
+	{{ content }}
 
-  <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+	{% unless page.skip_boilerplate %}
+	{% include _footer.html %}
+	{% endunless %}
 
-    {% include sidebar.html %}
-
-    <main class="container">
-      {{ content }}
-    </main>
-
-    {% include custom-foot.html %}
-    {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
-    {% endif %}
-  </body>
+	{% include _footer_scripts.html %}
+</body>
 </html>
