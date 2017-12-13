@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://localhost:4000/GreenData/sitemap.xml
+Sitemap: https://sarazeng.github.io/GreenData/sitemap.xml

@@ -18,7 +18,9 @@ header:
 
 <div class="medium-8 medium-pull-4 columns" markdown="1">
 
-## Feature Engineering   {#feat-engineering}
+## what is regularization why it is useful. 
+
+### What are the benefits and drawbacks of specific methods, such as ridge regression and lasso?
 
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->

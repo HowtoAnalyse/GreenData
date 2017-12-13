@@ -5,9 +5,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/404.html</loc>
+	<loc>https://sarazeng.github.io/GreenData/404.html</loc>
 	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -20,26 +20,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/blog/archive/</loc>
+	<loc>https://sarazeng.github.io/GreenData/blog/archive/</loc>
 	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/atom.xml</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -54,283 +37,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/changelog/</loc>
+	<loc>https://sarazeng.github.io/GreenData/atom.xml</loc>
 	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/ds/clf/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/contact/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/design/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/ds/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/ds/featEngineering/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/feed.xml</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/getting-started/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/headers/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/humans.txt</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/blog/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/info/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/ds/modelRelated/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/redirect-page/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/roadmap/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/robots.txt</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/search/</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>http://localhost:4000/GreenData/sitemap.xml</loc>
-	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -345,9 +54,9 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/ds/validation/</loc>
+	<loc>https://sarazeng.github.io/GreenData/changelog/</loc>
 	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -360,9 +69,300 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/blog/page2/</loc>
+	<loc>https://sarazeng.github.io/GreenData/ds/clf/</loc>
 	
-		<lastmod>2017-12-13T23:02:58+08:00</lastmod>
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/contact/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/design/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/ds/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/ds/featEngineering/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/feed.xml</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/getting-started/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/headers/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/humans.txt</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/blog/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/info/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/ds/modelRelated/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/redirect-page/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/roadmap/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/robots.txt</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/search/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/sitemap.xml</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/ds/validation/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sarazeng.github.io/GreenData/blog/page2/</loc>
+	
+		<lastmod>2017-12-13T23:13:51+08:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -378,7 +378,7 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/algorithms/Rising-Temperature/</loc>
+	<loc>https://sarazeng.github.io/GreenData/algorithms/Rising-Temperature/</loc>
 	
 		<lastmod>2017-10-09T00:00:00+08:00</lastmod>
 	
@@ -393,7 +393,7 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/algorithms/Human-Traffic-of-Stadium/</loc>
+	<loc>https://sarazeng.github.io/GreenData/algorithms/Human-Traffic-of-Stadium/</loc>
 	
 		<lastmod>2017-10-09T00:00:00+08:00</lastmod>
 	
@@ -408,7 +408,7 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/algorithms/Minimum-Index-Sum-of-Two-Lists/</loc>
+	<loc>https://sarazeng.github.io/GreenData/algorithms/Minimum-Index-Sum-of-Two-Lists/</loc>
 	
 		<lastmod>2017-10-05T00:00:00+08:00</lastmod>
 	
@@ -423,7 +423,7 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/algorithms/Average-of-Levels-in-Binary-Tree/</loc>
+	<loc>https://sarazeng.github.io/GreenData/algorithms/Average-of-Levels-in-Binary-Tree/</loc>
 	
 		<lastmod>2017-10-05T00:00:00+08:00</lastmod>
 	
@@ -438,7 +438,7 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/algorithms/3Sum/</loc>
+	<loc>https://sarazeng.github.io/GreenData/algorithms/3Sum/</loc>
 	
 		<lastmod>2017-10-05T00:00:00+08:00</lastmod>
 	
@@ -453,7 +453,7 @@
 
 	
 	<url>
-	<loc>http://localhost:4000/GreenData/deep%20learning/Sigmoid-Function/</loc>
+	<loc>https://sarazeng.github.io/GreenData/deep%20learning/Sigmoid-Function/</loc>
 	
 		<lastmod>2017-10-01T00:00:00+08:00</lastmod>
 	

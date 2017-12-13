@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:4000/GreenData/assets/xslt/rss.xslt" ?>
-<?xml-stylesheet type="text/css" href="http://localhost:4000/GreenData/assets/css/rss.css" ?>
+<?xml-stylesheet type="text/xsl" href="https://sarazeng.github.io/GreenData/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="https://sarazeng.github.io/GreenData/assets/css/rss.css" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>GreenData</title>
 		<description>GreenData is a website for wonders worth sharing</description>
-		<link>http://localhost:4000/GreenData/</link>
-		<atom:link href="http://localhost:4000/GreenData/feed.xml" rel="self" type="application/rss+xml" />
+		<link>https://sarazeng.github.io/GreenData/</link>
+		<atom:link href="https://sarazeng.github.io/GreenData/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Rising Temperature</title>
-				<link>http://localhost:4000/GreenData/algorithms/Rising-Temperature/</link>
+				<link>https://sarazeng.github.io/GreenData/algorithms/Rising-Temperature/</link>
 				<pubDate>Mon, 09 Oct 2017 00:00:00 +0800</pubDate>
 				<description>&lt;p&gt;Given a Weather table, write a SQL query to find all dates’ Ids with higher temperature compared to its previous (yesterday’s) dates.&lt;/p&gt;
 
@@ -40,12 +40,12 @@ and w.temperature &amp;gt; w2.temperature
 &lt;/code&gt;&lt;/pre&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/GreenData/algorithms/Rising-Temperature/</guid>
+				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/algorithms/Rising-Temperature/</guid>
 			</item>
 		
 			<item>
 				<title>Human Traffic of Stadium</title>
-				<link>http://localhost:4000/GreenData/algorithms/Human-Traffic-of-Stadium/</link>
+				<link>https://sarazeng.github.io/GreenData/algorithms/Human-Traffic-of-Stadium/</link>
 				<pubDate>Mon, 09 Oct 2017 00:00:00 +0800</pubDate>
 				<description>&lt;p&gt;X city built a new stadium, each day many people visit it and the stats are saved as these columns: id, date, people&lt;/p&gt;
 
@@ -87,12 +87,12 @@ order by s1.id
 &lt;/code&gt;&lt;/pre&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/GreenData/algorithms/Human-Traffic-of-Stadium/</guid>
+				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/algorithms/Human-Traffic-of-Stadium/</guid>
 			</item>
 		
 			<item>
 				<title>Minimum-Index-Sum-of-Two-Lists</title>
-				<link>http://localhost:4000/GreenData/algorithms/Minimum-Index-Sum-of-Two-Lists/</link>
+				<link>https://sarazeng.github.io/GreenData/algorithms/Minimum-Index-Sum-of-Two-Lists/</link>
 				<pubDate>Thu, 05 Oct 2017 00:00:00 +0800</pubDate>
 				<description>&lt;p&gt;Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings.&lt;/p&gt;
 
@@ -141,12 +141,12 @@ No duplicates in both lists.&lt;/p&gt;
 &lt;/div&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/GreenData/algorithms/Minimum-Index-Sum-of-Two-Lists/</guid>
+				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/algorithms/Minimum-Index-Sum-of-Two-Lists/</guid>
 			</item>
 		
 			<item>
 				<title>Average of Levels in Binary Tree</title>
-				<link>http://localhost:4000/GreenData/algorithms/Average-of-Levels-in-Binary-Tree/</link>
+				<link>https://sarazeng.github.io/GreenData/algorithms/Average-of-Levels-in-Binary-Tree/</link>
 				<pubDate>Thu, 05 Oct 2017 00:00:00 +0800</pubDate>
 				<description>&lt;p&gt;Given a non-empty binary tree, return the average value of the nodes on each level in the form of an array.&lt;/p&gt;
 
@@ -191,12 +191,12 @@ The range of node’s value is in the range of 32-bit signed integer.&lt;/p&gt;
 &lt;/div&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/GreenData/algorithms/Average-of-Levels-in-Binary-Tree/</guid>
+				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/algorithms/Average-of-Levels-in-Binary-Tree/</guid>
 			</item>
 		
 			<item>
 				<title>3Sum</title>
-				<link>http://localhost:4000/GreenData/algorithms/3Sum/</link>
+				<link>https://sarazeng.github.io/GreenData/algorithms/3Sum/</link>
 				<pubDate>Thu, 05 Oct 2017 00:00:00 +0800</pubDate>
 				<description>&lt;p&gt;Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.&lt;/p&gt;
 
@@ -230,12 +230,12 @@ The range of node’s value is in the range of 32-bit signed integer.&lt;/p&gt;
 &lt;/div&gt;
 
 </description>
-				<guid isPermaLink="true">http://localhost:4000/GreenData/algorithms/3Sum/</guid>
+				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/algorithms/3Sum/</guid>
 			</item>
 		
 			<item>
 				<title>Sigmoid</title>
-				<link>http://localhost:4000/GreenData/deep%20learning/Sigmoid-Function/</link>
+				<link>https://sarazeng.github.io/GreenData/deep%20learning/Sigmoid-Function/</link>
 				<pubDate>Sun, 01 Oct 2017 00:00:00 +0800</pubDate>
 				<description>&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;np&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;plt&lt;/span&gt;
@@ -325,7 +325,7 @@ The range of node’s value is in the range of 32-bit signed integer.&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/GreenData/deep%20learning/Sigmoid-Function/</guid>
+				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/deep%20learning/Sigmoid-Function/</guid>
 			</item>
 		
 	</channel>
