@@ -123,6 +123,18 @@
 
           
           
+        
+
+              
+
+          
+          
+        
+
+              
+
+          
+          
             
             
               <li class="divider"></li>
@@ -163,6 +175,68 @@
               <li class="divider"></li>
 
             
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/GreenData/ds/">Data Science</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/GreenData/ds/featEngineering/">Feature Engineering</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/GreenData/ds/clf/">Classification</a></li>
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/GreenData/ds/validation/">Model Validation</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            
+          
+        
+
+              
+
+          
+          
+
+            
+            
+
+              <li class="has-dropdown">
+                <a  href="http://localhost:4000/GreenData/coding/">Programming Tricks</a>
+
+                  <ul class="dropdown">
+                    
+
+                      
+
+                      <li><a  href="http://localhost:4000/GreenData/coding/sql/">sql</a></li>
+                    
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
             
           
         

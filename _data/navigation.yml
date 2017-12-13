@@ -2,6 +2,24 @@
   url: "/"
   side: left
 
+- title: "Data Science"
+  url: "/ds/"
+  side: left
+  dropdown:
+  - title: "Feature Engineering"
+    url: "/ds/featEngineering/"
+  - title: "Classification"
+    url: "/ds/clf/"
+  - title: "Model Validation"
+    url: "/ds/validation/"
+
+- title: "Programming Tricks"
+  url: "/coding/"
+  side: left
+  dropdown:
+  - title: "sql"
+    url: "/coding/sql/"
+
 - title: Blog
   url: "/blog/"
   side: left
