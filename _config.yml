@@ -28,7 +28,8 @@ baseurl: '/GreenData'
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://sarazeng.github.io/GreenData/images/'
+urlimg: '/GreenData/images/'
+# urlimg: 'https://localhost:4000/GreenData/images/'
 
 
 # Logo size is 600x80 pixels
