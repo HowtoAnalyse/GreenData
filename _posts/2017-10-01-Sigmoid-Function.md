@@ -1,5 +1,6 @@
 ---
 layout: page
+sidebar: right
 title: "Sigmoid"
 categories:
   - Deep Learning

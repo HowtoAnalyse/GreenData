@@ -1,5 +1,6 @@
 ---
-layout: page-fullwidth
+layout: page
+sidebar: right
 title: "Generative vs. Discriminatives"
 tags:
   - ensemble
