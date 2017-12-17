@@ -23,7 +23,7 @@ header:
 
 Thinking about and documenting the problem we're working on make data analysis more effective.
 
-## Check data quality and Tidying the data {#quality}
+## Feature Engineerning {#quality}
 
 1. Is there any missing value?
 
@@ -50,7 +50,7 @@ assert len(df.loc[(df[col1].isnull()) |
                     (df[col2].isnull())]) == 0
 ```
 
-## Exploratory analysis {#eda}
+### Exploratory analysis {#eda}
 
 * How is my data distributed?
     - Box plots

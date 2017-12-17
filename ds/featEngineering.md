@@ -20,6 +20,14 @@ header:
 
 ## Feature Engineering   {#feat-engineering}
 
+We have various types of features:
+
+* Numeric 
+* Categorical
+* Ordinal
+* Datetime
+* Coordinates 
+
 </div><!-- /.medium-8.columns -->
 </div><!-- /.row -->
 

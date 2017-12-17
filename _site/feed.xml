@@ -9,6 +9,33 @@
 		<atom:link href="https://howtoanalyse.github.io/GreenData/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Feature Engineering</title>
+				<link>https://howtoanalyse.github.io/GreenData/machine%20learning/CategoricalFeatures/</link>
+				<pubDate>Mon, 18 Dec 2017 00:00:00 +0800</pubDate>
+				<description>&lt;p&gt;Ordinal features refer to ordered categorical features. Examples include&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Driver’s license: A,B,C,D&lt;/li&gt;
+  &lt;li&gt;Education level: Bachelor, Master, Doctoral&lt;/li&gt;
+  &lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;difference-between-numeric-and-ordinal-features-with-values-123&quot;&gt;Difference between Numeric and Ordinal Features with values 1,2,3…&lt;/h3&gt;
+
+&lt;p&gt;For numerical features with values 1,2,3…, we can conclude that the distance between first, and the second class is equal to the distance between second and the third class, but because for ordinal features, we can’t tell which distance is bigger.&lt;/p&gt;
+
+&lt;p&gt;As these numeric features, we can’t sort and integrate an ordinal feature the other way, and expect to get similar performance.&lt;/p&gt;
+
+&lt;h3 id=&quot;encode-a-categorical-feature&quot;&gt;Encode a Categorical Feature&lt;/h3&gt;
+
+&lt;p&gt;The simplest way to encode a categorical feature is to map it’s unique values to different numbers.&lt;/p&gt;
+
+&lt;p&gt;This method works fine with two ways because tree-methods can split feature, and extract most of the useful values in categories on its own.&lt;/p&gt;
+
+</description>
+				<guid isPermaLink="true">https://howtoanalyse.github.io/GreenData/machine%20learning/CategoricalFeatures/</guid>
+			</item>
+		
+			<item>
 				<title>Decision Tree</title>
 				<link>https://howtoanalyse.github.io/GreenData/machine%20learning/decisionTree/</link>
 				<pubDate>Sun, 17 Dec 2017 00:00:00 +0800</pubDate>
@@ -272,41 +299,6 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 				<description>&lt;p&gt;The common back propagation used in neural networks is to calculate gradient of the loss function with respect to the parameters of the network&lt;/p&gt;
 </description>
 				<guid isPermaLink="true">https://howtoanalyse.github.io/GreenData/machine%20learning/nn/</guid>
-			</item>
-		
-			<item>
-				<title>Rising Temperature</title>
-				<link>https://howtoanalyse.github.io/GreenData/algorithms/Rising-Temperature/</link>
-				<pubDate>Mon, 09 Oct 2017 00:00:00 +0800</pubDate>
-				<description>&lt;p&gt;Given a Weather table, write a SQL query to find all dates’ Ids with higher temperature compared to its previous (yesterday’s) dates.&lt;/p&gt;
-
-&lt;p&gt;+———+————+——————+
-| Id(INT) | Date(DATE) | Temperature(INT) |
-+———+————+——————+
-|       1 | 2015-01-01 |               10 |
-|       2 | 2015-01-02 |               25 |
-|       3 | 2015-01-03 |               20 |
-|       4 | 2015-01-04 |               30 |
-+———+————+——————+
-For example, return the following Ids for the above Weather table:
-+—-+
-| Id |
-+—-+
-|  2 |
-|  4 |
-+—-+&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-SQL&quot;&gt;select w.id as Id
-from weather w
-join
-weather w2 on datediff(w.date, w2.date)=1
-and w.temperature &amp;gt; w2.temperature
-        
-                
-&lt;/code&gt;&lt;/pre&gt;
-
-</description>
-				<guid isPermaLink="true">https://howtoanalyse.github.io/GreenData/algorithms/Rising-Temperature/</guid>
 			</item>
 		
 	</channel>
