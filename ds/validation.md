@@ -19,7 +19,13 @@ header: no
 
 ## What is cross-validation?
 
-It’s a model validation technique for assessing how the results of a statistical analysis will generalize to an independent data set. Mainly used in settings where the goal is prediction and one wants to estimate how accurately a model will perform in practice. The goal of cross-validation is to define a data set to test the model in the training phase (i.e. validation data set) in order to limit problems like overfitting, and get an insight on how the model will generalize to an independent data set.
+It's a model validation technique for assessing how the results of a statistical analysis will generalize to an independent data set. 
+
+It's common to find that our model performs differently depending on the subset of the data it's trained on. This phenomenon is known as **overfitting**: The model is learning to classify the training set so well that it doesn't generalize and perform well on data it hasn't seen before.
+
+So we split the original data set into k subsets, use one of the subsets as the testing set, and the rest of the subsets are used as the training set. This process is then repeated k times such that each subset is used as the testing set exactly once.
+
+This process is what we called cross-validation.
 
 Examples: leave-one-out cross validation, K-fold cross validation
 
