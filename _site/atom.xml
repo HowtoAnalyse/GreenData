@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="/GreenData/assets/xslt/atom.xslt" ?>
 <?xml-stylesheet type="text/css" href="/GreenData/assets/css/atom.css" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>https://sarazeng.github.io/GreenData/</id>
+	<id>https://howtoanalyse.github.io/GreenData/</id>
 	<title>GreenData</title>
-	<updated>2017-12-17T21:05:35+08:00</updated>
+	<updated>2017-12-17T21:39:42+08:00</updated>
 
 	<subtitle>GreenData is a website for wonders worth sharing</subtitle>
 
@@ -19,16 +19,16 @@
 		</author>
 	
 
-	<link href="https://sarazeng.github.io/GreenData/atom.xml" rel="self" type="application/rss+xml" />
-	<link href="https://sarazeng.github.io/GreenData/" rel="alternate" type="text/html" />
+	<link href="https://howtoanalyse.github.io/GreenData/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="https://howtoanalyse.github.io/GreenData/" rel="alternate" type="text/html" />
 
 	<generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator>
 
 	
 		<entry>
-			<id>https://sarazeng.github.io/GreenData/machine%20learning/decisionTree/</id>
+			<id>https://howtoanalyse.github.io/GreenData/machine%20learning/decisionTree/</id>
 			<title>Decision Tree</title>
-			<link href="https://sarazeng.github.io/GreenData/machine%20learning/decisionTree/" rel="alternate" type="text/html" title="Decision Tree" />
+			<link href="https://howtoanalyse.github.io/GreenData/machine%20learning/decisionTree/" rel="alternate" type="text/html" title="Decision Tree" />
 			<updated>2017-12-17T00:00:00+08:00</updated>
 
 			
@@ -42,7 +42,7 @@
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://sarazeng.github.io/GreenData/machine%20learning/decisionTree/">&lt;p&gt;Decision tree classifiers are incredibly simple in theory. In their simplest form, decision tree classifiers ask a series of Yes/No questions about the data — each time getting closer to finding out the class of each entry — until they either classify the data set perfectly or simply can’t differentiate a set of entries. Think of it like a game of Twenty Questions, except the computer is much, much better at it.&lt;/p&gt;
+			<content type="html" xml:base="https://howtoanalyse.github.io/GreenData/machine%20learning/decisionTree/">&lt;p&gt;Decision tree classifiers are incredibly simple in theory. In their simplest form, decision tree classifiers ask a series of Yes/No questions about the data — each time getting closer to finding out the class of each entry — until they either classify the data set perfectly or simply can’t differentiate a set of entries. Think of it like a game of Twenty Questions, except the computer is much, much better at it.&lt;/p&gt;
 
 &lt;p&gt;The nice part about decision tree classifiers is that they are scale-invariant, i.e., the scale of the features does not affect their performance.&lt;/p&gt;
 
@@ -79,9 +79,9 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 		</entry>
 	
 		<entry>
-			<id>https://sarazeng.github.io/GreenData/machine-learning/ensembling/</id>
+			<id>https://howtoanalyse.github.io/GreenData/machine-learning/ensembling/</id>
 			<title>Bagging, boosting and stacking in machine learning</title>
-			<link href="https://sarazeng.github.io/GreenData/machine-learning/ensembling/" rel="alternate" type="text/html" title="Bagging, boosting and stacking in machine learning" />
+			<link href="https://howtoanalyse.github.io/GreenData/machine-learning/ensembling/" rel="alternate" type="text/html" title="Bagging, boosting and stacking in machine learning" />
 			<updated>2017-12-16T00:00:00+08:00</updated>
 
 			
@@ -95,7 +95,7 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://sarazeng.github.io/GreenData/machine-learning/ensembling/">&lt;p&gt;Bagging and boosting are two families of ensemble methods.&lt;/p&gt;
+			<content type="html" xml:base="https://howtoanalyse.github.io/GreenData/machine-learning/ensembling/">&lt;p&gt;Bagging and boosting are two families of ensemble methods.&lt;/p&gt;
 
 &lt;p&gt;Ensemble methods aim at combining the predictions of several base estimators built with a given learning algorithm in order to improve generalizability / robustness over a single estimator.&lt;/p&gt;
 
@@ -130,9 +130,9 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 		</entry>
 	
 		<entry>
-			<id>https://sarazeng.github.io/GreenData/machine%20learning/statvsml/</id>
+			<id>https://howtoanalyse.github.io/GreenData/machine%20learning/statvsml/</id>
 			<title>What is the difference between data mining, statistics, machine learning and AI?</title>
-			<link href="https://sarazeng.github.io/GreenData/machine%20learning/statvsml/" rel="alternate" type="text/html" title="What is the difference between data mining, statistics, machine learning and AI?" />
+			<link href="https://howtoanalyse.github.io/GreenData/machine%20learning/statvsml/" rel="alternate" type="text/html" title="What is the difference between data mining, statistics, machine learning and AI?" />
 			<updated>2017-12-15T00:00:00+08:00</updated>
 
 			
@@ -146,7 +146,7 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://sarazeng.github.io/GreenData/machine%20learning/statvsml/">&lt;p&gt;Artificial Intelligence is the study of how to create intelligent agents. Most tasks that require intelligence require an ability to induce new knowledge from experiences. Thus, a large area within AI is machine learning. Procedures in machine learning include ideas derived directly from, or inspired by, classical statistics, but they don’t have to be. Data mining is an area that has taken much of its inspiration and techniques from machine learning (and some, also, from statistics), but aims at either to discover / generate some preliminary insights in an area where there really was little knowledge beforehand, or to be able to predict future observations accurately.&lt;/p&gt;
+			<content type="html" xml:base="https://howtoanalyse.github.io/GreenData/machine%20learning/statvsml/">&lt;p&gt;Artificial Intelligence is the study of how to create intelligent agents. Most tasks that require intelligence require an ability to induce new knowledge from experiences. Thus, a large area within AI is machine learning. Procedures in machine learning include ideas derived directly from, or inspired by, classical statistics, but they don’t have to be. Data mining is an area that has taken much of its inspiration and techniques from machine learning (and some, also, from statistics), but aims at either to discover / generate some preliminary insights in an area where there really was little knowledge beforehand, or to be able to predict future observations accurately.&lt;/p&gt;
 
 &lt;p&gt;There are considerable overlaps among them. If we have to make some distinctions, they are:&lt;/p&gt;
 
@@ -169,9 +169,9 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 		</entry>
 	
 		<entry>
-			<id>https://sarazeng.github.io/GreenData/machine%20learning/cv/</id>
+			<id>https://howtoanalyse.github.io/GreenData/machine%20learning/cv/</id>
 			<title>What is the difference between test set and validation set?</title>
-			<link href="https://sarazeng.github.io/GreenData/machine%20learning/cv/" rel="alternate" type="text/html" title="What is the difference between test set and validation set?" />
+			<link href="https://howtoanalyse.github.io/GreenData/machine%20learning/cv/" rel="alternate" type="text/html" title="What is the difference between test set and validation set?" />
 			<updated>2017-12-14T00:00:00+08:00</updated>
 
 			
@@ -185,7 +185,7 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://sarazeng.github.io/GreenData/machine%20learning/cv/">&lt;p&gt;When you have a large data set, it’s recommended to split it into 3 parts:&lt;/p&gt;
+			<content type="html" xml:base="https://howtoanalyse.github.io/GreenData/machine%20learning/cv/">&lt;p&gt;When you have a large data set, it’s recommended to split it into 3 parts:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -215,9 +215,9 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 		</entry>
 	
 		<entry>
-			<id>https://sarazeng.github.io/GreenData/machine%20learning/biavar/</id>
+			<id>https://howtoanalyse.github.io/GreenData/machine%20learning/biavar/</id>
 			<title>What is Bias-Variance Tradeoff</title>
-			<link href="https://sarazeng.github.io/GreenData/machine%20learning/biavar/" rel="alternate" type="text/html" title="What is Bias-Variance Tradeoff" />
+			<link href="https://howtoanalyse.github.io/GreenData/machine%20learning/biavar/" rel="alternate" type="text/html" title="What is Bias-Variance Tradeoff" />
 			<updated>2017-12-13T00:00:00+08:00</updated>
 
 			
@@ -231,7 +231,7 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://sarazeng.github.io/GreenData/machine%20learning/biavar/">&lt;p&gt;In short,&lt;/p&gt;
+			<content type="html" xml:base="https://howtoanalyse.github.io/GreenData/machine%20learning/biavar/">&lt;p&gt;In short,&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;bias is how far away a model’s predictions are from true values,&lt;/li&gt;
   &lt;li&gt;variance is how scattered these predictions are among model iterations.&lt;/li&gt;
@@ -267,9 +267,9 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 		</entry>
 	
 		<entry>
-			<id>https://sarazeng.github.io/GreenData/machine-learning/generativeDiscriminative/</id>
+			<id>https://howtoanalyse.github.io/GreenData/machine-learning/generativeDiscriminative/</id>
 			<title>Generative vs. Discriminatives</title>
-			<link href="https://sarazeng.github.io/GreenData/machine-learning/generativeDiscriminative/" rel="alternate" type="text/html" title="Generative vs. Discriminatives" />
+			<link href="https://howtoanalyse.github.io/GreenData/machine-learning/generativeDiscriminative/" rel="alternate" type="text/html" title="Generative vs. Discriminatives" />
 			<updated>2017-12-12T00:00:00+08:00</updated>
 
 			
@@ -283,7 +283,7 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://sarazeng.github.io/GreenData/machine-learning/generativeDiscriminative/">&lt;p&gt;The fundamental distinction between discriminative models and generative models is:&lt;/p&gt;
+			<content type="html" xml:base="https://howtoanalyse.github.io/GreenData/machine-learning/generativeDiscriminative/">&lt;p&gt;The fundamental distinction between discriminative models and generative models is:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Discriminative models learn the (hard or soft) boundary between classes&lt;/li&gt;
@@ -343,9 +343,9 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 		</entry>
 	
 		<entry>
-			<id>https://sarazeng.github.io/GreenData/machine%20learning/topCoursera/</id>
+			<id>https://howtoanalyse.github.io/GreenData/machine%20learning/topCoursera/</id>
 			<title>Top 3 online courses</title>
-			<link href="https://sarazeng.github.io/GreenData/machine%20learning/topCoursera/" rel="alternate" type="text/html" title="Top 3 online courses" />
+			<link href="https://howtoanalyse.github.io/GreenData/machine%20learning/topCoursera/" rel="alternate" type="text/html" title="Top 3 online courses" />
 			<updated>2017-12-11T00:00:00+08:00</updated>
 
 			
@@ -359,7 +359,7 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://sarazeng.github.io/GreenData/machine%20learning/topCoursera/">&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/specializations/probabilistic-graphical-models&quot;&gt;Probabilistic Graphical Models &lt;/a&gt;&lt;/p&gt;
+			<content type="html" xml:base="https://howtoanalyse.github.io/GreenData/machine%20learning/topCoursera/">&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/specializations/probabilistic-graphical-models&quot;&gt;Probabilistic Graphical Models &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;by Stanford&lt;/p&gt;
 
@@ -377,9 +377,9 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 		</entry>
 	
 		<entry>
-			<id>https://sarazeng.github.io/GreenData/machine%20learning/mlRecap/</id>
+			<id>https://howtoanalyse.github.io/GreenData/machine%20learning/mlRecap/</id>
 			<title>Top 4 families of machine learning algorithms</title>
-			<link href="https://sarazeng.github.io/GreenData/machine%20learning/mlRecap/" rel="alternate" type="text/html" title="Top 4 families of machine learning algorithms" />
+			<link href="https://howtoanalyse.github.io/GreenData/machine%20learning/mlRecap/" rel="alternate" type="text/html" title="Top 4 families of machine learning algorithms" />
 			<updated>2017-12-10T00:00:00+08:00</updated>
 
 			
@@ -393,7 +393,7 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 				</author>
 			
 			<summary>Linear Model, Tree-based methods, k-Nearest Neighbors and Neural Nets</summary>
-			<content type="html" xml:base="https://sarazeng.github.io/GreenData/machine%20learning/mlRecap/">&lt;h2 id=&quot;no-free-lunch-theorem&quot;&gt;No Free Lunch Theorem&lt;/h2&gt;
+			<content type="html" xml:base="https://howtoanalyse.github.io/GreenData/machine%20learning/mlRecap/">&lt;h2 id=&quot;no-free-lunch-theorem&quot;&gt;No Free Lunch Theorem&lt;/h2&gt;
 
 &lt;p&gt;Basically, No Free Lunch Theorem states that there is no methods which outperform all others on all tasks.&lt;/p&gt;
 
@@ -443,9 +443,9 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 		</entry>
 	
 		<entry>
-			<id>https://sarazeng.github.io/GreenData/machine%20learning/nn/</id>
+			<id>https://howtoanalyse.github.io/GreenData/machine%20learning/nn/</id>
 			<title>Top 4 families of machine learning algorithms</title>
-			<link href="https://sarazeng.github.io/GreenData/machine%20learning/nn/" rel="alternate" type="text/html" title="Top 4 families of machine learning algorithms" />
+			<link href="https://howtoanalyse.github.io/GreenData/machine%20learning/nn/" rel="alternate" type="text/html" title="Top 4 families of machine learning algorithms" />
 			<updated>2017-12-09T00:00:00+08:00</updated>
 
 			
@@ -459,7 +459,7 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 				</author>
 			
 			<summary>Linear Model, Tree-based methods, k-Nearest Neighbors and Neural Nets</summary>
-			<content type="html" xml:base="https://sarazeng.github.io/GreenData/machine%20learning/nn/">&lt;p&gt;The common back propagation used in neural networks is to calculate gradient of the loss function with respect to the parameters of the network&lt;/p&gt;
+			<content type="html" xml:base="https://howtoanalyse.github.io/GreenData/machine%20learning/nn/">&lt;p&gt;The common back propagation used in neural networks is to calculate gradient of the loss function with respect to the parameters of the network&lt;/p&gt;
 </content>
 
 			
@@ -473,9 +473,9 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 		</entry>
 	
 		<entry>
-			<id>https://sarazeng.github.io/GreenData/algorithms/Rising-Temperature/</id>
+			<id>https://howtoanalyse.github.io/GreenData/algorithms/Rising-Temperature/</id>
 			<title>Rising Temperature</title>
-			<link href="https://sarazeng.github.io/GreenData/algorithms/Rising-Temperature/" rel="alternate" type="text/html" title="Rising Temperature" />
+			<link href="https://howtoanalyse.github.io/GreenData/algorithms/Rising-Temperature/" rel="alternate" type="text/html" title="Rising Temperature" />
 			<updated>2017-10-09T00:00:00+08:00</updated>
 
 			
@@ -489,7 +489,7 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 				</author>
 			
 			<summary></summary>
-			<content type="html" xml:base="https://sarazeng.github.io/GreenData/algorithms/Rising-Temperature/">&lt;p&gt;Given a Weather table, write a SQL query to find all dates’ Ids with higher temperature compared to its previous (yesterday’s) dates.&lt;/p&gt;
+			<content type="html" xml:base="https://howtoanalyse.github.io/GreenData/algorithms/Rising-Temperature/">&lt;p&gt;Given a Weather table, write a SQL query to find all dates’ Ids with higher temperature compared to its previous (yesterday’s) dates.&lt;/p&gt;
 
 &lt;p&gt;+———+————+——————+
 | Id(INT) | Date(DATE) | Temperature(INT) |

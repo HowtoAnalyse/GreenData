@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://sarazeng.github.io/GreenData/sitemap.xml
+Sitemap: https://howtoanalyse.github.io/GreenData/sitemap.xml
