@@ -1,6 +1,5 @@
 ---
 layout: page-fullwidth
-sidebar: right
 title: "what does a typical data science workflow look like?"
 subheadline: "a Python data analysis pipeline"
 teaser: "what does a typical data science workflow look like"

@@ -18,6 +18,24 @@
 
 &lt;p&gt;A common problem that decision trees face is that they’re prone to overfitting: They complexify to the point that they classify the training set near-perfectly, but fail to generalize to data they have not seen before.
 Random Forest classifiers work around that limitation by creating a whole bunch of decision trees (hence “forest”) — each trained on random subsets of training samples (drawn with replacement) and features (drawn without replacement) — and have the decision trees work together to make a more accurate classification.&lt;/p&gt;
+
+&lt;h2 id=&quot;random-forest&quot;&gt;Random Forest&lt;/h2&gt;
+
+&lt;p&gt;In RandomForest model we average n similar performing trees (“forest”), trained independently. So two RF with 1000 trees is essentially the same as single RF model with 2000 trees.&lt;/p&gt;
+
+&lt;h2 id=&quot;gradient-boosted-decision-trees&quot;&gt;Gradient Boosted Decision Trees&lt;/h2&gt;
+
+&lt;p&gt;In GBDT model we have sequence of trees, each improve predictions of all previous.&lt;/p&gt;
+
+&lt;p&gt;So taking other settings the same, dropping the n-th tree has different effects on these two models.&lt;/p&gt;
+
+&lt;p&gt;For Random Forest, the order of trees does not matter in RandomForest and performance drop will be very similar on average.&lt;/p&gt;
+
+&lt;p&gt;For GBDT:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;if we drop first tree, sum of all the rest trees will be biased and overall performance should drop.&lt;/li&gt;
+  &lt;li&gt;if we drop the last tree, sum of all previous tree won’t be affected, and therefore performance will change insignificantly (in case we have enough trees)&lt;/li&gt;
+&lt;/ul&gt;
 </description>
 				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/machine%20learning/decisionTree/</guid>
 			</item>
@@ -203,6 +221,60 @@ Random Forest classifiers work around that limitation by creating a whole bunch 
 			</item>
 		
 			<item>
+				<title>Top 4 families of machine learning algorithms</title>
+				<link>https://sarazeng.github.io/GreenData/machine%20learning/mlRecap/</link>
+				<pubDate>Sun, 10 Dec 2017 00:00:00 +0800</pubDate>
+				<description>&lt;h2 id=&quot;no-free-lunch-theorem&quot;&gt;No Free Lunch Theorem&lt;/h2&gt;
+
+&lt;p&gt;Basically, No Free Lunch Theorem states that there is no methods which outperform all others on all tasks.&lt;/p&gt;
+
+&lt;p&gt;The reason behind is that every method relies on certain assumptions about data or task. If these assumptions fail, it will perform poorly.&lt;/p&gt;
+
+&lt;p&gt;For us, this means that we cannot every competition with just a single algorithm. So it is important for us to have a clear mind map of various models based off different assumptions.&lt;/p&gt;
+
+&lt;p&gt;Then let’s start getting familiar with the four popular families of machine learning algorithms.&lt;/p&gt;
+
+&lt;h2 id=&quot;linear-model&quot;&gt;Linear Model&lt;/h2&gt;
+
+&lt;p&gt;Linear models try to separate objects with a plane which divides space into two parts.&lt;/p&gt;
+
+&lt;p&gt;With 2 sets of points, it is quite intuitive to separate them using a line. This approach can be generalized for a higher dimensional space. This is the main idea behind linear models.&lt;/p&gt;
+
+&lt;p&gt;Logistic regression or SVM are all linear models withdifferent loss functions.&lt;/p&gt;
+
+&lt;h3 id=&quot;linear-models-are-especially-good-for-sparse-high-dimensional-data&quot;&gt;Linear models are especially good for sparse high dimensional data.&lt;/h3&gt;
+
+&lt;h2 id=&quot;tree-based-methods&quot;&gt;Tree-Based Methods&lt;/h2&gt;
+
+&lt;p&gt;In general, tree-based models are very powerful and can be a good default method for tabular data.&lt;/p&gt;
+
+&lt;p&gt;Intuitively, a single decision tree can be considered as dividing space into boxes and approximating data with a constant inside of these boxes. It uses divide-and-conquer approach to recur sub-split spaces into sub-spaces.&lt;/p&gt;
+
+&lt;p&gt;The way of true axis splits and corresponding constants produces several approaches for building decision trees. Moreover, such trees can be combined together in a lot of ways. All this leads to a wide variety of tree-based algorithms, most famous of them being random forest and Gradient Boosted Decision Trees.&lt;/p&gt;
+
+&lt;p&gt;Scikit-Learn contains quite good implementation of random forest. For gradient boost decision trees, you may find XGBoost and LightGBM with higher speed and accuracy.&lt;/p&gt;
+
+&lt;h2 id=&quot;k-nearest-neighbors-k-nn&quot;&gt;k-Nearest Neighbors (k-NN)&lt;/h2&gt;
+
+&lt;p&gt;The intuition behind k-NN is very simple. Closer objects will likely to have same labels.&lt;/p&gt;
+
+&lt;h2 id=&quot;neural-networks&quot;&gt;Neural Networks&lt;/h2&gt;
+
+&lt;p&gt;Neural Nets is a special class of machine learning models, which deserve a separate topic.&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/machine%20learning/mlRecap/</guid>
+			</item>
+		
+			<item>
+				<title>Top 4 families of machine learning algorithms</title>
+				<link>https://sarazeng.github.io/GreenData/machine%20learning/nn/</link>
+				<pubDate>Sat, 09 Dec 2017 00:00:00 +0800</pubDate>
+				<description>&lt;p&gt;The common back propagation used in neural networks is to calculate gradient of the loss function with respect to the parameters of the network&lt;/p&gt;
+</description>
+				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/machine%20learning/nn/</guid>
+			</item>
+		
+			<item>
 				<title>Rising Temperature</title>
 				<link>https://sarazeng.github.io/GreenData/algorithms/Rising-Temperature/</link>
 				<pubDate>Mon, 09 Oct 2017 00:00:00 +0800</pubDate>
@@ -235,107 +307,6 @@ and w.temperature &amp;gt; w2.temperature
 
 </description>
 				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/algorithms/Rising-Temperature/</guid>
-			</item>
-		
-			<item>
-				<title>Human Traffic of Stadium</title>
-				<link>https://sarazeng.github.io/GreenData/algorithms/Human-Traffic-of-Stadium/</link>
-				<pubDate>Mon, 09 Oct 2017 00:00:00 +0800</pubDate>
-				<description>&lt;p&gt;X city built a new stadium, each day many people visit it and the stats are saved as these columns: id, date, people&lt;/p&gt;
-
-&lt;p&gt;Please write a query to display the records which have 3 or more consecutive rows and the amount of people more than 100(inclusive).&lt;/p&gt;
-
-&lt;p&gt;For example, the table stadium:
-+——+————+———–+
-| id   | date       | people    |
-+——+————+———–+
-| 1    | 2017-01-01 | 10        |
-| 2    | 2017-01-02 | 109       |
-| 3    | 2017-01-03 | 150       |
-| 4    | 2017-01-04 | 99        |
-| 5    | 2017-01-05 | 145       |
-| 6    | 2017-01-06 | 1455      |
-| 7    | 2017-01-07 | 199       |
-| 8    | 2017-01-08 | 188       |
-+——+————+———–+
-For the sample data above, the output is:&lt;/p&gt;
-
-&lt;p&gt;+——+————+———–+
-| id   | date       | people    |
-+——+————+———–+
-| 5    | 2017-01-05 | 145       |
-| 6    | 2017-01-06 | 1455      |
-| 7    | 2017-01-07 | 199       |
-| 8    | 2017-01-08 | 188       |
-+——+————+———–+&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-SQL&quot;&gt;select distinct s1.* 
-from stadium s1, stadium s2, stadium s3
-where s1.people&amp;gt;=100 and s2.people&amp;gt;=100 and s3.people&amp;gt;=100
-and ((s1.id-s2.id=1 and s2.id-s3.id=1 and s1.id-s3.id=2) # 1,2,3
-    or (s2.id - s1.id=1 and s3.id-s2.id=1 and s3.id-s1.id=2) # 3,2,1
-    or (s2.id - s1.id=1 and s1.id-s3.id=1 and s2.id-s3.id=2)) # 2,1,3
-order by s1.id
-       
-                
-&lt;/code&gt;&lt;/pre&gt;
-
-</description>
-				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/algorithms/Human-Traffic-of-Stadium/</guid>
-			</item>
-		
-			<item>
-				<title>Minimum-Index-Sum-of-Two-Lists</title>
-				<link>https://sarazeng.github.io/GreenData/algorithms/Minimum-Index-Sum-of-Two-Lists/</link>
-				<pubDate>Thu, 05 Oct 2017 00:00:00 +0800</pubDate>
-				<description>&lt;p&gt;Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings.&lt;/p&gt;
-
-&lt;p&gt;You need to help them find out their common interest with the least list index sum. If there is a choice tie between answers, output all of them with no order requirement. You could assume there always exists an answer.&lt;/p&gt;
-
-&lt;p&gt;Example 1:
-Input:
-[“Shogun”, “Tapioca Express”, “Burger King”, “KFC”]
-[“Piatti”, “The Grill at Torrey Pines”, “Hungry Hunter Steakhouse”, “Shogun”]
-Output: [“Shogun”]
-Explanation: The only restaurant they both like is “Shogun”.
-Example 2:
-Input:
-[“Shogun”, “Tapioca Express”, “Burger King”, “KFC”]
-[“KFC”, “Shogun”, “Burger King”]
-Output: [“Shogun”]
-Explanation: The restaurant they both like and have the least index sum is “Shogun” with index sum 1 (0+1).
-Note:
-The length of both lists will be in the range of [1, 1000].
-The length of strings in both lists will be in the range of [1, 30].
-The index is starting from 0 to the list length minus 1.
-No duplicates in both lists.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Solution&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;findRestaurant&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-        &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
-        :type list1: List[str]
-        :type list2: List[str]
-        :rtype: List[str]
-        &quot;&quot;&quot;&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;iSum&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)):&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;tmpSum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;list2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmpSum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;iSum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                    &lt;span class=&quot;n&quot;&gt;iSum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tmpSum&lt;/span&gt;
-                    &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;list1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                    &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;except&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;
-                
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-</description>
-				<guid isPermaLink="true">https://sarazeng.github.io/GreenData/algorithms/Minimum-Index-Sum-of-Two-Lists/</guid>
 			</item>
 		
 	</channel>
